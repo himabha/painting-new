@@ -1,0 +1,7 @@
+.home h1.entry-title{
+    display: none;
+}
+/* Next slide button */
+.next-button, .previous-button {
+    bottom: 20px !important;
+}
