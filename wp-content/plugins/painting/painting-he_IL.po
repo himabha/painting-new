@@ -1,0 +1,221 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Painting Plugin\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-11-25 06:16+0000\n"
+"PO-Revision-Date: 2019-11-25 06:18+0000\n"
+"Last-Translator: admin <himanshu.bhatia9@gmail.com>\n"
+"Language-Team: Hebrew\n"
+"Language: he_IL\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.3.1; wp-5.2.4"
+
+#. Name of the plugin
+msgid "Painting Plugin"
+msgstr ""
+
+#. Description of the plugin
+msgid ""
+"This plugin is used for selling prints, mirrors, frames, glass and other "
+"products."
+msgstr ""
+
+#. URI of the plugin
+msgid "https://www.shaked-g.com/"
+msgstr ""
+
+#. Author of the plugin
+msgid "Himanshu Bhatia"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "http://skyzoneinfotech.co.in/"
+msgstr ""
+
+msgctxt "without"
+msgid "Without"
+msgstr "ללא"
+
+msgctxt "perspex"
+msgid "perspex"
+msgstr "פרספקט"
+
+msgctxt "matte"
+msgid "matte"
+msgstr "מט"
+
+msgctxt "ordinary"
+msgid "ordinary"
+msgstr "זכוכית רגילה"
+
+msgctxt "without_glass"
+msgid "Without glass"
+msgstr "ללא זכוכית"
+
+msgctxt "with_frame"
+msgid "With Frame"
+msgstr "עם מסגרת"
+
+msgctxt "laminate"
+msgid "Laminate"
+msgstr "למינציה"
+
+msgctxt "choose_lamination"
+msgid "Choose lamination"
+msgstr "בחר למינציה"
+
+msgctxt "choose_finishing"
+msgid "Choose finishing"
+msgstr "בחר גימור"
+
+msgctxt "choose_thickness"
+msgid "Choose Thickness"
+msgstr "בחר עובי"
+
+msgctxt "choose_paper_type"
+msgid "Choose paper type"
+msgstr "בחר סוג נייר"
+
+msgctxt "your_have_uploaded_below_image_with_size"
+msgid "Your have uploaded below image with size"
+msgstr "התמונה מתחת לגודל"
+
+msgctxt "upload_image"
+msgid "Upload image"
+msgstr "העלאת תמונה"
+
+msgctxt "select_mirror"
+msgid "Select mirror"
+msgstr "בחר מראה"
+
+msgctxt "mirror_to_institutions(including_aluminum_frame)"
+msgid "Mirror to institutions(including aluminum frame)"
+msgstr "מראה למוסדות (כולל מסגרת אלומיניום)"
+
+msgctxt "customize_sizes"
+msgid "Customize sizes"
+msgstr "התאם אישית גדלים"
+
+msgctxt "select_finishing"
+msgid "Select finishing"
+msgstr "בחר גימור"
+
+msgctxt "add"
+msgid "Add"
+msgstr "הוסף"
+
+msgctxt "select_hanging_type"
+msgid "Select hanging type"
+msgstr "בחר סוג תלייה"
+
+msgctxt "hanging_type"
+msgid "Hanging type"
+msgstr "סוג תליה"
+
+msgctxt "select_other_products"
+msgid "Select other products"
+msgstr "בחר מוצרים אחרים"
+
+msgctxt "with_glue"
+msgid "With Glue"
+msgstr "עם דבק"
+
+msgctxt "thickness"
+msgid "Thickness"
+msgstr "עובי"
+
+msgctxt "select_thickness"
+msgid "Select thickness"
+msgstr "בחר עובי"
+
+msgctxt "select_glass"
+msgid "Select glass"
+msgstr "בחר זכוכית"
+
+msgctxt "frame_color"
+msgid "Frame color"
+msgstr "צבע מסגרת"
+
+msgctxt "frame_type"
+msgid "Frame type"
+msgstr "סוג מסגרת"
+
+msgctxt "frame_price"
+msgid "Frame price"
+msgstr "מחיר מסגרת"
+
+msgctxt "frame_description"
+msgid "Frame description"
+msgstr "תיאור המסגרת"
+
+msgctxt "frame_name"
+msgid "Frame name"
+msgstr "שם המסגרת"
+
+msgctxt "selected_frame_detail"
+msgid "Selected frame detail"
+msgstr "פרטי המסגרת שנבחרו"
+
+msgctxt "select_frame_type"
+msgid "Select Frame Type"
+msgstr "בחר סוג מסגרת"
+
+msgctxt "price"
+msgid "Price"
+msgstr "מחיר"
+
+msgctxt "select_extras"
+msgid "Select Extras"
+msgstr "בחר תוספות"
+
+msgctxt "select_extra_width"
+msgid "Select extra width"
+msgstr "בחר רוחב נוסף"
+
+msgctxt "select_color"
+msgid "Select Color"
+msgstr "בחר צבע"
+
+msgctxt "quantity"
+msgid "Quantity"
+msgstr "כמות"
+
+msgctxt "select_cover_type"
+msgid "Select Cover Type"
+msgstr "בחר סוג כיסוי"
+
+msgctxt "select_size"
+msgid "Select Size"
+msgstr "בחר מידה"
+
+msgctxt "height"
+msgid "Height"
+msgstr "גובה"
+
+msgctxt "select_frame_source"
+msgid "Select Frame Source"
+msgstr "בחר מקור מסגרת"
+
+msgctxt "from_grid"
+msgid "From Grid"
+msgstr "מגריד"
+
+msgctxt "from_catalogue"
+msgid "From Catalogue"
+msgstr "מתוך קטלוג"
+
+msgctxt "width"
+msgid "Width"
+msgstr "רוחב"
+
+msgctxt "cm"
+msgid "cm"
+msgstr "ס\"מ"
+
+msgctxt "choose_one"
+msgid "Choose one"
+msgstr "נא לבחור אחד"

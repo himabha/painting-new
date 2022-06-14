@@ -1,0 +1,135 @@
+/* Frames */
+.frame_covers_group, .frame_extras_group, .frame_dimensions_group{
+	display:none;
+}
+#frame_extras_max_dimensions_width, #frame_extras_max_dimensions_height
+{
+	float: left;
+}
+.frame_extras_group .form-group
+{
+	clear: both;
+}
+.dimension_symbol{
+	text-align:center;
+	float: left;
+	top: 4px;
+}
+label[for="frame_extras_max_dimensions_width"]
+{
+	float: left;
+	margin-right: 10px;
+}
+/* Other Products */
+
+.other_product_thickness_group, .other_product_type_price_group, .other_product_with_glue, .other_product_type_quantity_group, .other_product_max_dimensions, .other_product_thickness_range
+{
+	display:none;
+}
+.other_product_max_dimensions, .other_product_thickness_range
+{
+	float: left;
+}
+.other_product_max_dimensions .form-group, .other_product_thickness_range, .other_product_thickness_range .form-group, .other_product_type_price_group
+{
+	clear: both;
+}
+#other_product_dimensions_range1, #other_product_dimensions_range2, #other_product_thickness_range1, #other_product_thickness_range2
+{
+	float: left;
+}
+label[for="other_product_dimensions_range1"], label[for="other_product_dimensions_range2"]
+{
+	float: left;
+	margin-right: 10px;
+}
+.other_product_type_min_price_group
+{
+	display: none;
+}
+
+/* Glass */
+.glass_max_dimensions, .glass_min_dimensions
+{
+	float: left;
+}
+.glass_min_dimensions .form-group, .glass_max_dimensions .form-group, .glass_type_price_group
+{
+	clear: both;
+}
+#glass_dimensions_min_range1, #glass_dimensions_min_range2, #glass_dimensions_max_range1, #glass_dimensions_max_range2
+{
+	float: left;
+}
+label[for="glass_dimensions_min_range1"], label[for="glass_dimensions_min_range2"], label[for="glass_dimensions_max_range1"], label[for="glass_dimensions_max_range2"]
+{
+	float: left;
+	margin-right: 10px;
+}
+/* Mirrors */
+.mirrors_finishing_price_group, .mirrors_finishing_frame_required_group, .mirrors_hanging_type_price_group
+{
+	display:none;
+}
+label[for="mirrors_dimensions1"], label[for="frame_catalog_dimensions1"]
+{
+	float: left;
+	margin-right: 10px;
+}
+#mirrors_dimensions1, #mirrors_dimensions2, .mirrors_min_dimensions, #frame_catalog_dimensions1, #frame_catalog_dimensions2, .frame_catalog_min_dimensions
+{
+	float: left;
+}
+.mirrors_finishing_group, .mirrors_min_dimensions .form-group, .frame_catalog_min_dimensions .form-group
+{
+	clear: both;
+}
+
+/* Prints */
+label[for="print_extras_max_dimensions1"]
+{
+	float: left;
+	margin-right: 10px;
+}
+#print_extras_max_dimensions1, #print_extras_max_dimensions2, .print_extras_max_dimensions_group
+{
+	float: left;
+}
+.print_extras_max_dimensions_group
+{
+	display:none;
+}
+.print_extras_max_dimensions_group .form-group, .submit_group
+{
+	clear: both;
+}
+
+.image_display
+{
+	display:none;
+}
+.img_loader img
+{
+	display:none;
+	margin:30px;
+}
+#image_content ul{
+    list-style: none;
+    display: flex;
+    padding-left: 0px;
+}
+#image_content ul li p{
+    margin-bottom: 5px;
+}
+#image_content ul li:not(:first-child){
+    margin: 0 30px;
+}
+.header_message
+{
+    font-weight: bold;
+    color: green;
+}
+.image_upload_error{
+    color: red;
+    margin: 10px;
+}

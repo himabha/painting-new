@@ -26,7 +26,7 @@ define( 'DB_NAME', 'painting_2' );
 define( 'DB_USER', 'root' );
 
 /** Database password */
-define( 'DB_PASSWORD', '' );
+define( 'DB_PASSWORD', 'P4ssword' );
 
 /** Database hostname */
 define( 'DB_HOST', 'localhost' );

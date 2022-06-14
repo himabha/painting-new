@@ -1,0 +1,1108 @@
+{
+	"categories": {
+		"mirrors": {
+			"plexiglass": {
+				"sizes": [{
+					"thickness_by_mm": 2,
+					"price": 475,
+					"min_price": 50,
+					"min_dimensions": [
+						10,
+						15
+					],
+					"max_dimensions": [
+						120,
+						240
+					],
+					"finishing": [{
+						"type": "a_frame",
+						"price_by_meter": 0,
+						"choose_frame": true
+					}]
+				}],
+				"types": [],
+				"is_catalogue": false
+			},
+			"glass": {
+				"sizes": [{
+						"thickness_by_mm": 3,
+						"min_price": 50,
+						"price": 210,
+                        "min_dimensions": [
+    						10,
+    						15
+    					],
+    					"max_dimensions": [
+							60,
+							160
+						],
+						"finishing": [{
+							"type": "manual_polishing",
+							"price_by_meter": 30,
+							"choose_frame": false
+						}]
+					},
+					{
+						"thickness_by_mm": 5,
+						"min_price": 50,
+						"price": 300,
+                        "min_dimensions": [
+    						10,
+    						15
+    					],
+    					"max_dimensions": [
+							140,
+							220
+						],
+						"finishing": [{
+								"type": "manual_polishing",
+								"price_by_meter": 30,
+								"choose_frame": false
+							},
+							{
+								"type": "machine_polishing",
+								"price_by_meter": 30,
+								"choose_frame": false
+							},
+							{
+								"type": "phase",
+								"price_by_meter": 50,
+								"choose_frame": false
+							}
+						]
+					}
+				],
+				"hanging_type": [{
+						"name": "floating",
+						"price": 150
+					},
+					{
+						"name": "stick",
+						"price": 30
+					},
+					{
+						"name": "mirror_rack",
+						"price": 30
+					}
+				],
+				"is_catalogue": false
+			},
+			"from_catalogue": {
+				"catalogues": [{
+						"is_for_institutions": false,
+						"dimensions": [
+							[
+								110,
+								40
+							],
+							[
+								60,
+								160
+							],
+							[
+								50,
+								120
+							]
+						],
+						"prices": [
+							100,
+							400,
+							180
+						],
+						"thickness": [
+							3,
+							5,
+							5
+						]
+					},
+					{
+						"is_for_institutions": true,
+						"customizable": false,
+						"dimensions": [
+							[
+								40,
+								110
+							],
+							[
+								60,
+								40
+							],
+							[
+								50,
+								120
+							],
+							[
+								50,
+								160
+							]
+						],
+						"prices": [
+							176,
+							96,
+							240,
+							320
+						],
+						"thickness": [
+							5,
+							5,
+							5,
+							5
+						]
+					},
+					{
+						"is_for_institutions": true,
+						"customizable": true,
+						"sizes": [{
+							"min_price": 60,
+							"price": 400,
+							"min_dimensions": [
+								30,
+								40
+							],
+							"max_dimensions": [
+								200,
+								100
+							]
+						}]
+					}
+				],
+				"is_catalogue": true
+			}
+		},
+		"glass": {
+			"clear_glass": {
+				"sizes": [{
+						"thickness_by_mm": 8,
+						"min_price": 70,
+						"price": 350,
+						"min_dimensions": [
+							100,
+							100
+						],
+						"max_dimensions": [
+							321,
+							244
+						]
+					},
+					{
+						"thickness_by_mm": 10,
+						"price": 450,
+						"min_price": 70,
+						"min_dimensions": [
+							30,
+							20
+						],
+						"max_dimensions": [
+							321,
+							244
+						]
+					}
+				]
+			},
+			"glass_detector": {
+				"sizes": [{
+					"thickness_by_mm": 6,
+					"min_price": 100,
+					"price": 800,
+					"min_dimensions": [
+						30,
+						20
+					],
+					"max_dimensions": [
+						225,
+						120
+					]
+				}]
+			}
+		},
+		"other_products": {
+			"capa": {
+				"sizes": [{
+						"min_price": 50,
+						"thickness_by_mm": 5,
+						"prices": [{
+								"price_list": [
+									18,
+									38,
+									41,
+									55,
+									80
+								],
+								"quantity_threshold": [
+									25,
+									25,
+									25,
+									25,
+									20
+								],
+								"low_quantity_percentage": 30,
+								"with_glue": 1
+							},
+							{
+								"price_list": [
+									12,
+									24,
+									27,
+									36,
+									50
+								],
+								"quantity_threshold": [
+									25,
+									25,
+									25,
+									25,
+									20
+								],
+								"low_quantity_percentage": 30,
+								"with_glue": 0
+							}
+						],
+						"dimensions": [
+							[
+								100,
+								70
+							],
+							[
+								100,
+								140
+							],
+							[
+								100,
+								152
+							],
+							[
+								100,
+								210
+							],
+							[
+								122,
+								244
+							]
+						]
+					},
+					{
+						"min_price": 50,
+						"thickness_by_mm": 10,
+						"prices": [{
+								"price_list": [
+									26,
+									54,
+									59,
+									78,
+									111,
+									134,
+									156,
+									182
+								],
+								"quantity_threshold": [
+									15,
+									15,
+									15,
+									15,
+									15,
+									15,
+									15,
+									15
+								],
+								"low_quantity_percentage": 30,
+								"with_glue": 1
+							},
+							{
+								"price_list": [
+									20,
+									39,
+									45,
+									53,
+									85,
+									102,
+									119,
+									144
+								],
+								"quantity_threshold": [
+									15,
+									15,
+									15,
+									15,
+									15,
+									15,
+									15,
+									15
+								],
+								"low_quantity_percentage": 30,
+								"with_glue": 0
+							}
+						],
+						"dimensions": [
+							[
+								70,
+								100
+							],
+							[
+								100,
+								140
+							],
+							[
+								100,
+								152
+							],
+							[
+								100,
+								210
+							],
+							[
+								122,
+								244
+							],
+							[
+								122,
+								300
+							],
+							[
+								300,
+								140
+							],
+							[
+								152,
+								305
+							]
+						]
+					}
+				],
+				"dimensions_enabled": false
+			},
+			"passepartout_sheet": {
+				"sizes": [{
+					"min_price": 50,
+					"prices": [
+						50,
+						120
+					],
+					"dimensions": [
+						[
+							120,
+							80
+						],
+						[
+							100,
+							140
+						]
+					],
+					"colors": [
+						[
+							"white",
+							"cream",
+							"black",
+							"red",
+							"blue"
+						],
+						[
+							"white",
+							"off_white",
+							"black"
+						]
+					]
+				}],
+				"dimensions_enabled": true
+			},
+			"plexiglass": {
+                "manual_dimensions": {
+					"max_dimensions": [
+						200,
+						120
+					]
+				},
+				"sizes": [{
+                    "dynamic_thickness": true,
+					"prices": [53],
+					"min_price": 50,
+					"colors": {
+						"white": {
+							"thickness_by_mm": [2, 3, 4, 5, 6, 8, 10, 12, 15, 20, 25, 30, 40, 50]
+						},
+						"off_white": {
+							"thickness_by_mm": [3]
+						},
+						"red": {
+							"thickness_by_mm": [3]
+						},
+						"blue": {
+							"thickness_by_mm": [3]
+						},
+						"grey": {
+							"thickness_by_mm": [3]
+						},
+						"green": {
+							"thickness_by_mm": [3]
+						},
+						"yellow": {
+							"thickness_by_mm": [3]
+						},
+						"black": {
+							"thickness_range_by_mm": [3, 20]
+						},
+						"cream": {
+							"thickness_by_mm": [3]
+						}
+					}
+				}],
+				"dimensions_enabled": true
+			}
+		},
+		"frames": {
+			"types": [
+				"modern",
+				"classic",
+				"decorated",
+				"from_catalogue"
+			],
+			"sizes": [{
+					"min_price": 50,
+					"covers": {
+						"without_glass": {
+							"price": 0
+						},
+						"ordinary": {
+							"price": 0
+						},
+						"matte": {
+							"price": 90
+						},
+						"perspex": {
+							"price": 70
+						}
+					},
+					"extras": {
+						"without": [],
+						"passepartout": [{
+							"max_dimensions": [
+								120,
+								90
+							],
+							"price": 50
+						}],
+						"background": [{
+							"max_dimensions": [
+								120,
+								90
+							],
+							"price": 50
+						}]
+					},
+					"colors": [
+						"white",
+						"off_white",
+						"red",
+						"blue",
+						"grey",
+						"green",
+						"yellow",
+						"black",
+						"cream"
+					],
+					"is_catalogue": false
+				},
+				{
+					"discount_list": [{
+							"quantity": [
+								5,
+								10
+							],
+							"discount": 5
+						},
+						{
+							"quantity": [
+								11,
+								15
+							],
+							"discount": 7
+						},
+						{
+							"quantity": [
+								20,
+								30
+							],
+							"discount": 10
+						},
+						{
+							"quantity": [
+								31,
+								0
+							],
+							"discount": 15
+						}
+					],
+					"price_list": [
+						20,
+						25,
+						30,
+						40,
+						55
+					],
+					"dimensions": [
+						[
+							10,
+							15
+						],
+						[
+							13,
+							18
+						],
+						[
+							21,
+							15
+						],
+						[
+							"A4 21",
+							29.7
+						],
+						[
+							"A3 42",
+							29.7
+						]
+					],
+					"is_catalogue": true
+				}
+			]
+		},
+		"prints": {
+			"canvas": {
+				"sizes": {
+					"ranges": [
+						[
+							1,
+							16
+						],
+						[
+							17,
+							25
+						],
+						[
+							26,
+							32
+						],
+						[
+							33,
+							0
+						]
+					],
+					"max_size_one_side": 142
+				},
+				"prices": [
+					583,
+					466,
+					350,
+					315
+				],
+				"min_price": 50,
+				"finishing": [{
+						"type": "without_stretching",
+						"price": 0
+					},
+					{
+						"type": "normal_stretching",
+						"price": 40
+					},
+					{
+						"type": "stretching_by_wrapping",
+						"price": 40
+					}
+				]
+			},
+			"paper": {
+                "types": [{
+						"type": "photographic_glazed_paper"
+					},
+					{
+						"type": "photographic_mat_surface_paper"
+					},
+					{
+						"type": "plain_paper"
+					}
+				],
+				"sizes": {
+					"ranges": [
+						[
+							1,
+							16
+						],
+						[
+							17,
+							25
+						],
+						[
+							26,
+							32
+						],
+						[
+							33,
+							0
+						]
+					],
+					"max_size_one_side": 149
+				},
+				"prices": [
+					466,
+					350,
+					291,
+					210
+				],
+				"min_price": 50,
+				"finishing": [{
+						"type": "without",
+						"price": 0
+					},
+					{
+						"type": "paste_on_kappa",
+						"price": 150
+					}
+				],
+				"laminate": [{
+						"type": "without_lamination",
+						"price": 0
+					},
+					{
+						"type": "standard_glass",
+						"price": 0
+					},
+					{
+						"type": "matte_glass",
+						"price": 90
+					},
+					{
+						"type": "perspex",
+						"price": 70
+					}
+				],
+				"extras": [{
+						"type": "without",
+						"price": 0
+					},
+					{
+						"type": "passepartout",
+						"price": 50,
+						"max_dimensions": [
+							120,
+							90
+						]
+					},
+					{
+						"type": "background",
+						"price": 50,
+						"max_dimensions": [
+							120,
+							90
+						]
+					}
+				]
+			},
+			"rug_pvc": {
+				"sizes": {
+					"ranges": [
+						[
+							1,
+							16
+						],
+						[
+							17,
+							25
+						],
+						[
+							26,
+							32
+						],
+						[
+							33,
+							0
+						]
+					],
+					"max_size_one_side": [
+						120,
+						240
+					]
+				},
+				"prices": [
+					500,
+					470,
+					400,
+					300
+				],
+				"min_price": 50
+			},
+			"glass": {
+				"sizes": {
+					"ranges": [
+						[
+							1,
+							16
+						],
+						[
+							17,
+							25
+						],
+						[
+							26,
+							32
+						],
+						[
+							33,
+							0
+						]
+					],
+					"max_size_one_side": [
+						155,
+						240
+					]
+				},
+				"prices": [
+					1500,
+					1400,
+					1300,
+					1200
+				],
+				"min_price": 150,
+				"finishing": [{
+						"type": "without_holes_or_frame",
+						"price": 0
+					},
+					{
+						"type": "rear_frame",
+						"price": 40
+					},
+					{
+						"type": "holes_for_hanging",
+						"price": 200
+					}
+				]
+			},
+			"perspex": {
+				"sizes": {
+					"ranges": [
+						[
+							1,
+							16
+						],
+						[
+							17,
+							25
+						],
+						[
+							26,
+							32
+						],
+						[
+							33,
+							0
+						]
+					],
+					"max_size_one_side": [
+						155,
+						240
+					]
+				},
+				"prices": [
+					1500,
+					1400,
+					1300,
+					1200
+				],
+				"min_price": 150,
+				"hanging_type": [{
+						"type": "without_holes_or_frame",
+						"price": 0
+					},
+					{
+						"type": "rear_frame",
+						"price": 40
+					},
+					{
+						"type": "holes_for_hanging",
+						"price": 200
+					}
+				]
+			},
+			"mirror": {
+				"sizes": {
+					"ranges": [
+						[
+							1,
+							16
+						],
+						[
+							17,
+							25
+						],
+						[
+							26,
+							32
+						],
+						[
+							33,
+							0
+						]
+					],
+					"max_size_one_side": [
+						150,
+						250
+					]
+				},
+				"prices": [
+					1300,
+					1250,
+					1200,
+					900
+				],
+				"min_price": 50,
+				"thickness_by_mm": [
+					5
+				],
+				"finishing": [{
+						"type": "without_finishing",
+						"price": 0
+					},
+					{
+						"type": "machine_polishing",
+						"price": 30
+					},
+					{
+						"type": "phase",
+						"price": 50
+					}
+				],
+				"hanging_type": [{
+						"type": "without_lamination",
+						"price": 0
+					},
+                    {
+                        "price_type": "meter_run",
+						"type": "rear_frame",
+						"price": 40
+					},
+					{
+                        "price_type": "fixed",
+						"type": "mirror_hanger",
+						"price": 50
+					}
+				]
+			},
+			"capa": {
+				"sizes": {
+					"ranges": [
+						[
+							1,
+							16
+						],
+						[
+							17,
+							25
+						],
+						[
+							26,
+							32
+						],
+						[
+							33,
+							0
+						]
+					],
+					"max_size_one_side": [
+						150,
+						250
+					]
+				},
+				"prices": [
+					350,
+					300,
+					250,
+					210
+				],
+				"min_price": 50,
+				"thickness_by_mm": [
+					5,
+					10
+				],
+				"laminate": [{
+						"type": "without_lamination",
+						"price": 0
+					},
+					{
+						"type": "matte_lamination",
+						"price": 120
+					},
+					{
+						"type": "glossy_lamination",
+						"price": 120
+					}
+				]
+			},
+			"debond": {
+				"sizes": {
+					"ranges": [
+						[
+							1,
+							16
+						],
+						[
+							17,
+							25
+						],
+						[
+							26,
+							32
+						],
+						[
+							33,
+							0
+						]
+					],
+					"max_size_one_side": [
+						120,
+						240
+					]
+				},
+				"prices": [
+					500,
+					470,
+					400,
+					300
+				],
+				"min_price": 50,
+				"thickness_by_mm": [
+					4
+				],
+				"hanging_type": [{
+						"type": "without_holes_or_frame",
+						"price": 0
+					},
+					{
+						"type": "rear_frame",
+						"price": 40
+					},
+					{
+						"type": "holes_for_hanging",
+						"price": 200
+					},
+					{
+						"type": "holes_drilling",
+						"price": 0
+					}
+				]
+			},
+			"pvc_white": {
+				"sizes": {
+					"ranges": [
+						[
+							1,
+							16
+						],
+						[
+							17,
+							25
+						],
+						[
+							26,
+							32
+						],
+						[
+							33,
+							0
+						]
+					],
+					"max_size_one_side": [
+						120,
+						240
+					]
+				},
+				"prices": [
+					500,
+					470,
+					400,
+					300
+				],
+				"min_price": 50,
+				"thickness_by_mm": [
+					5
+				],
+				"hanging_type": [{
+						"type": "without_holes_or_frame",
+						"price": 0
+					},
+					{
+						"type": "rear_frame",
+						"price": 40
+					},
+					{
+						"type": "holes_for_hanging",
+						"price": 200
+					},
+					{
+						"type": "holes_drilling",
+						"price": 0
+					}
+				]
+			},
+			"sticker": {
+				"sizes": {
+					"ranges": [
+						[
+							1,
+							16
+						],
+						[
+							17,
+							25
+						],
+						[
+							26,
+							32
+						],
+						[
+							33,
+							0
+						]
+					],
+					"max_size_one_side": 150
+				},
+				"min_price": 50,
+				"prices": [
+					466,
+					350,
+					291,
+					210
+				]
+			},
+			"wood": {
+				"sizes": {
+					"ranges": [
+						[
+							1,
+							16
+						],
+						[
+							17,
+							25
+						],
+						[
+							26,
+							32
+						],
+						[
+							33,
+							0
+						]
+					],
+					"max_size_one_side": [
+						240,
+						150
+					]
+				},
+				"min_price": 50,
+				"prices": [
+					1300,
+					1250,
+					1200,
+					900
+				]
+			}
+		}
+	}
+}
