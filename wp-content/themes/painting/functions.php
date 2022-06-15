@@ -520,7 +520,7 @@ function painting_custom_menu_item ( $items, $args ) {
 		$items = str_replace('<a title="facebook" href="#" class="nav-link">facebook</a>', '<a class="nav-link active" aria-current="page" href="#"><i class="fab fa-facebook-f"></i></a>', $items);
 		$items = str_replace('<a title="instagram" href="#" class="nav-link">instagram</a>', '<a class="nav-link" href="#"><i class="fab fa-instagram"></i></a>', $items);
 		$items = str_replace('<a title="heart" href="#" class="nav-link">heart</a>', '<a class="nav-link" href="#" ><i class="far fa-heart"></i></a>', $items);
-		$items = str_replace('<a title="Cart" href="http://local-painting.com/cart/" class="nav-link">Cart</a>', '<a class="nav-link" href="../cart" ><i class="fas fa-shopping-cart"></i></a>', $items);
+		$items = str_replace('<a title="cart" href="#" class="nav-link">cart</a>', '<a class="nav-link" href="../cart" ><i class="fas fa-shopping-cart"></i></a>', $items);
 	}
     return $items;
 }
