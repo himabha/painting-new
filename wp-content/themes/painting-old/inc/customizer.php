@@ -115,6 +115,28 @@ function painting_customize( $wp_customize ) {
 			'priority' => 3,
 		)
 	);
+
+	$wp_customize->add_setting(
+		'painting_gallery_shortcode',
+		array(
+			'default'           => '',
+			'sanitize_callback' => 'sanitize_text_field',
+		)
+	);
+	$wp_customize->add_control(
+		'painting_gallery_shortcode',
+		array(
+			'type'     => 'textarea',
+			'label'    => __('Painting gallery shortcode', 'painting' ),
+			'section'  => 'static_front_page',
+			'settings' => 'painting_gallery_shortcode',
+			'priority' => 10,
+		)
+	);
+
+
+
+
 }
 add_action( 'customize_register', 'painting_customize' );
 

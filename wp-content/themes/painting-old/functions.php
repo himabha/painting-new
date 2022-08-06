@@ -60,6 +60,7 @@ if ( ! function_exists( 'painting_setup_theme' ) ) :
 			)
 		);
 
+		add_theme_support( 'block-templates' );
 		// Add support for Block Styles.
 		add_theme_support( 'wp-block-styles' );
 		// Add support for full and wide alignment.
@@ -501,3 +502,25 @@ function painting_scripts_loader() {
 	}
 }
 add_action( 'wp_enqueue_scripts', 'painting_scripts_loader' );
+
+
+// CUSTOM
+add_action('before_main_container', function(){
+	if(is_front_page()) {
+		if(isset(get_option('theme_mods_painting')['painting_gallery_shortcode']) && !empty(get_option('theme_mods_painting')['painting_gallery_shortcode']))
+		{
+			echo do_shortcode(get_option('theme_mods_painting')['painting_gallery_shortcode']);
+		}
+	}
+}, 10);
+
+add_filter( 'wp_nav_menu_items', 'painting_custom_menu_item', 10, 2 );
+function painting_custom_menu_item ( $items, $args ) {
+    if ( $args->theme_location == 'main-menu') {
+		$items = str_replace('<a title="facebook" href="#" class="nav-link">facebook</a>', '<a class="nav-link active" aria-current="page" href="#"><i class="fab fa-facebook-f"></i></a>', $items);
+		$items = str_replace('<a title="instagram" href="#" class="nav-link">instagram</a>', '<a class="nav-link" href="#"><i class="fab fa-instagram"></i></a>', $items);
+		$items = str_replace('<a title="heart" href="#" class="nav-link">heart</a>', '<a class="nav-link" href="#" ><i class="far fa-heart"></i></a>', $items);
+		$items = str_replace('<a title="cart" href="#" class="nav-link">cart</a>', '<a class="nav-link" href="../cart" ><i class="fas fa-shopping-cart"></i></a>', $items);
+	}
+    return $items;
+}
