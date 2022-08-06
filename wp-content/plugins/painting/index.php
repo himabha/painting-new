@@ -28,7 +28,7 @@ function painting_app_shortcode($attr)
     extract(shortcode_atts(array(
       'pagename' => "",
       'product_id' => ""
-   ), $atts));
+   ), $attr));
     if (is_page()) {
         //$slug = get_queried_object()->post_name;
         $slug = $attr['pagename'];

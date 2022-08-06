@@ -23,7 +23,6 @@ class Helper
 
         }
 
-
         $row = $results;
         $lang = 'lang_'.self::lang;
         return $row[0]->$lang;

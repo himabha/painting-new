@@ -34,7 +34,6 @@ if (empty($results)) {
         <div class="modal-content">
             <div class="frame_popup">
                 <div class="form-group choose_frame_field">
-
                     <div class="form-group">
                         <label for="filter_frame_type"><?php echo $helper->getHebrewText('select_frame_type');?>:
                         </label>
